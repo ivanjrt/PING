@@ -18,6 +18,12 @@ $pingerRep = $pinger.Send("google.com")
 $pingerRep.Address.IPAddressToString
 ```
 
+Method 3
+``` Javascript
+$PingHome = Test-NetConnection -ComputerName "Google.com"
+$PingHome.RemoteAddress.IPAddressToString
+```
+
 # Finding out the IP for the local PC
 Method 1
 ``` Java
