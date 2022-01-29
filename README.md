@@ -37,5 +37,5 @@ $HomeIp      = $PingHomeRtr | select-string -Pattern $regex -AllMatches | % { $_
 $HomeIp   
 ```
 
-
+Other Methods and languages: https://myexternalip.com/ 
 
